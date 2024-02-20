@@ -76,3 +76,22 @@ button {
 button:hover {
     background-color: #7a54a5;
 }
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px;
+    background-color: #fff;
+}
+
+figcaption {
+    /*don't know why with '.product-card>figcaption' it didn't work*/
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: larger;
+}
